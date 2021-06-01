@@ -26,6 +26,7 @@ cd ../../../
 
 echo 'about to add files'
 git add assets/pipeline.sh
+git add assets/src/
 
 echo 'about to commit'
 git commit -m $1
