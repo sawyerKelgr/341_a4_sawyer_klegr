@@ -1,3 +1,4 @@
+# sawyer klegr 1516595
 from pathlib import Path
 import sys
 for path in Path('src').rglob('*.ts'):
@@ -9,6 +10,5 @@ for path in Path('src').rglob('*.ts'):
 			print('0')
 			sys.exit(0)
 		
-
 print('1')
 sys.exit(0)
