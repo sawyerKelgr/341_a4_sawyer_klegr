@@ -11,8 +11,13 @@ cd src/_test_
 #jest
 #npm run test
 cd ../../../
-echo 'about to add .'
-git add .
+
+#can not do the "add ." command as the node module folder causes crashes
+#echo 'about to add .'
+#git add .
+echo about to add files
+git add assets/pipeline.sh
+
 echo 'about to commit'
 git commit -m $1
 echo 'about to push'
