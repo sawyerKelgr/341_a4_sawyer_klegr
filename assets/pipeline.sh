@@ -15,7 +15,7 @@ cd ../../../
 #can not do the "add ." command as the node module folder causes crashes
 #echo 'about to add .'
 #git add .
-echo about to add files
+echo 'about to add files'
 git add assets/pipeline.sh
 
 echo 'about to commit'
