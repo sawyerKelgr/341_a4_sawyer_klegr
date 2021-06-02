@@ -15,7 +15,7 @@ echo 'typescript file comment test past'
 
 #npm install
 npm run build
-cd src/_test_
+cd src/__tests__
 #jest
 npm run test
 cd ../../../
