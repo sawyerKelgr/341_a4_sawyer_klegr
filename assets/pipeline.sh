@@ -28,6 +28,8 @@ echo 'about to add files'
 git add assets/pipeline.sh
 git add assets/StartOfTSFileCheck.py
 git add assets/src/
+git add assets/package-lock.json
+git add assets/package.json
 
 echo 'about to commit'
 git commit -m $1
