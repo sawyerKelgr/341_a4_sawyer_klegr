@@ -59,7 +59,7 @@ export default class PastPurchases extends Component<PastPurchasesProps, PastPur
 
   render() {
     return (
-      <div className="Category">
+      <div className="Category" data-testid="div">
         <SearchBar />
         <CategoryNavBar />
         <div className="well-bs col-md-12">
