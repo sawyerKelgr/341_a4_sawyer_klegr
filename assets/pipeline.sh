@@ -20,10 +20,6 @@ cd src/__tests__
 npm run test
 cd ../../../
 
-#can not do the "add ." command as the node module folder causes crashes
-#echo 'about to add .'
-#git add .
-
 echo 'about to add files'
 git add assets/pipeline.sh
 git add assets/StartOfTSFileCheck.py
